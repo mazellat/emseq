@@ -1,0 +1,492 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 5
+Title "EMSEQ"
+Date ""
+Rev "A"
+Comp "Electronic Milkshake"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Driver_LED:MAX7219 U?
+U 1 1 6076B891
+P 2650 3300
+AR Path="/6076B891" Ref="U?"  Part="1" 
+AR Path="/6078CBB6/6076B891" Ref="U2"  Part="1" 
+F 0 "U2" H 2400 4250 50  0000 C CNN
+F 1 "MAX7219" H 2850 4250 50  0000 C CNN
+F 2 "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm" H 2600 3350 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX7219-MAX7221.pdf" H 2700 3150 50  0001 C CNN
+	1    2650 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 60892948
+P 8950 1600
+F 0 "D3" H 8943 1345 50  0000 C CNN
+F 1 "LED" H 8943 1436 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 8950 1600 50  0001 C CNN
+F 3 "~" H 8950 1600 50  0001 C CNN
+	1    8950 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 60894A40
+P 8650 1600
+F 0 "R5" V 8443 1600 50  0000 C CNN
+F 1 "1k" V 8534 1600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8580 1600 50  0001 C CNN
+F 3 "~" H 8650 1600 50  0001 C CNN
+	1    8650 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D4
+U 1 1 60896E93
+P 8950 2000
+F 0 "D4" H 8943 1745 50  0000 C CNN
+F 1 "LED" H 8943 1836 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 8950 2000 50  0001 C CNN
+F 3 "~" H 8950 2000 50  0001 C CNN
+	1    8950 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 60896E99
+P 8650 2000
+F 0 "R6" V 8443 2000 50  0000 C CNN
+F 1 "1k" V 8534 2000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8580 2000 50  0001 C CNN
+F 3 "~" H 8650 2000 50  0001 C CNN
+	1    8650 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D5
+U 1 1 60898D7F
+P 8950 2400
+F 0 "D5" H 8943 2145 50  0000 C CNN
+F 1 "LED" H 8943 2236 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 8950 2400 50  0001 C CNN
+F 3 "~" H 8950 2400 50  0001 C CNN
+	1    8950 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 60898D85
+P 8650 2400
+F 0 "R7" V 8443 2400 50  0000 C CNN
+F 1 "1k" V 8534 2400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8580 2400 50  0001 C CNN
+F 3 "~" H 8650 2400 50  0001 C CNN
+	1    8650 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D6
+U 1 1 60898D8B
+P 8950 2800
+F 0 "D6" H 8943 2545 50  0000 C CNN
+F 1 "LED" H 8943 2636 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 8950 2800 50  0001 C CNN
+F 3 "~" H 8950 2800 50  0001 C CNN
+	1    8950 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 60898D91
+P 8650 2800
+F 0 "R8" V 8443 2800 50  0000 C CNN
+F 1 "1k" V 8534 2800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8580 2800 50  0001 C CNN
+F 3 "~" H 8650 2800 50  0001 C CNN
+	1    8650 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D7
+U 1 1 6089C81B
+P 8950 3200
+F 0 "D7" H 8943 2945 50  0000 C CNN
+F 1 "LED" H 8943 3036 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 8950 3200 50  0001 C CNN
+F 3 "~" H 8950 3200 50  0001 C CNN
+	1    8950 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 6089C821
+P 8650 3200
+F 0 "R9" V 8443 3200 50  0000 C CNN
+F 1 "1k" V 8534 3200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8580 3200 50  0001 C CNN
+F 3 "~" H 8650 3200 50  0001 C CNN
+	1    8650 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D8
+U 1 1 6089C827
+P 8950 3600
+F 0 "D8" H 8943 3345 50  0000 C CNN
+F 1 "LED" H 8943 3436 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 8950 3600 50  0001 C CNN
+F 3 "~" H 8950 3600 50  0001 C CNN
+	1    8950 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 6089C82D
+P 8650 3600
+F 0 "R10" V 8443 3600 50  0000 C CNN
+F 1 "1k" V 8534 3600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8580 3600 50  0001 C CNN
+F 3 "~" H 8650 3600 50  0001 C CNN
+	1    8650 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D9
+U 1 1 6089C833
+P 8950 4000
+F 0 "D9" H 8943 3745 50  0000 C CNN
+F 1 "LED" H 8943 3836 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 8950 4000 50  0001 C CNN
+F 3 "~" H 8950 4000 50  0001 C CNN
+	1    8950 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R11
+U 1 1 6089C839
+P 8650 4000
+F 0 "R11" V 8443 4000 50  0000 C CNN
+F 1 "1k" V 8534 4000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8580 4000 50  0001 C CNN
+F 3 "~" H 8650 4000 50  0001 C CNN
+	1    8650 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D10
+U 1 1 6089C83F
+P 8950 4400
+F 0 "D10" H 8943 4145 50  0000 C CNN
+F 1 "LED" H 8943 4236 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 8950 4400 50  0001 C CNN
+F 3 "~" H 8950 4400 50  0001 C CNN
+	1    8950 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R12
+U 1 1 6089C845
+P 8650 4400
+F 0 "R12" V 8443 4400 50  0000 C CNN
+F 1 "1k" V 8534 4400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8580 4400 50  0001 C CNN
+F 3 "~" H 8650 4400 50  0001 C CNN
+	1    8650 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D11
+U 1 1 6089D8F9
+P 8950 4750
+F 0 "D11" H 8943 4495 50  0000 C CNN
+F 1 "LED" H 8943 4586 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 8950 4750 50  0001 C CNN
+F 3 "~" H 8950 4750 50  0001 C CNN
+	1    8950 4750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R13
+U 1 1 6089D8FF
+P 8650 4750
+F 0 "R13" V 8443 4750 50  0000 C CNN
+F 1 "1k" V 8534 4750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8580 4750 50  0001 C CNN
+F 3 "~" H 8650 4750 50  0001 C CNN
+	1    8650 4750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9100 1600 9100 2000
+Connection ~ 9100 2000
+Wire Wire Line
+	9100 2000 9100 2400
+Connection ~ 9100 2400
+Wire Wire Line
+	9100 2400 9100 2800
+Connection ~ 9100 2800
+Wire Wire Line
+	9100 2800 9100 3200
+Connection ~ 9100 3200
+Wire Wire Line
+	9100 3200 9100 3600
+Connection ~ 9100 3600
+Wire Wire Line
+	9100 3600 9100 4000
+Connection ~ 9100 4000
+Wire Wire Line
+	9100 4000 9100 4400
+Connection ~ 9100 4400
+Wire Wire Line
+	9100 4400 9100 4750
+Wire Wire Line
+	9100 4900 9100 4750
+Connection ~ 9100 4750
+$Comp
+L power:GND #PWR0143
+U 1 1 6089E2D7
+P 9100 4900
+F 0 "#PWR0143" H 9100 4650 50  0001 C CNN
+F 1 "GND" H 9105 4727 50  0000 C CNN
+F 2 "" H 9100 4900 50  0001 C CNN
+F 3 "" H 9100 4900 50  0001 C CNN
+	1    9100 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L ElcMsk:1088AS MX1
+U 1 1 608AD367
+P 4450 4150
+F 0 "MX1" H 5578 4804 50  0000 L CNN
+F 1 "1088AS" H 5578 4713 50  0000 L CNN
+F 2 "EMSEQ1:1088AS" H 4450 4150 50  0001 C CNN
+F 3 "" H 4450 4150 50  0001 C CNN
+	1    4450 4150
+	1    0    0    -1  
+$EndComp
+Text Label 3050 3200 0    50   ~ 0
+M_C1
+Text Label 3050 2500 0    50   ~ 0
+M_C2
+Text Label 3050 2600 0    50   ~ 0
+M_C3
+Text Label 3050 2700 0    50   ~ 0
+M_C4
+Text Label 3050 2800 0    50   ~ 0
+M_C5
+Text Label 3050 2900 0    50   ~ 0
+M_C6
+Text Label 3050 3000 0    50   ~ 0
+M_C7
+Text Label 3050 3100 0    50   ~ 0
+M_C8
+Text Label 3050 4000 0    50   ~ 0
+M_R8
+Text Label 3050 3300 0    50   ~ 0
+M_R1
+Text Label 3050 3400 0    50   ~ 0
+M_R2
+Text Label 3050 3500 0    50   ~ 0
+M_R3
+Text Label 3050 3600 0    50   ~ 0
+M_R4
+Text Label 3050 3700 0    50   ~ 0
+M_R5
+Text Label 3050 3800 0    50   ~ 0
+M_R6
+Text Label 3050 3900 0    50   ~ 0
+M_R7
+NoConn ~ 3050 4100
+$Comp
+L power:GND #PWR?
+U 1 1 608BBEDE
+P 2650 4300
+F 0 "#PWR?" H 2650 4050 50  0001 C CNN
+F 1 "GND" H 2655 4127 50  0000 C CNN
+F 2 "" H 2650 4300 50  0001 C CNN
+F 3 "" H 2650 4300 50  0001 C CNN
+	1    2650 4300
+	1    0    0    -1  
+$EndComp
+Text GLabel 1900 4100 0    50   Input ~ 0
+MOSI
+Text GLabel 1900 4000 0    50   Input ~ 0
+SCK
+Text GLabel 1900 3900 0    50   Input ~ 0
+CS_MAX
+Wire Wire Line
+	1900 3900 2100 3900
+Wire Wire Line
+	2250 4000 1900 4000
+Wire Wire Line
+	1900 4100 2250 4100
+$Comp
+L Device:R R?
+U 1 1 608BE2D2
+P 2100 3700
+F 0 "R?" H 2170 3746 50  0000 L CNN
+F 1 "10k" H 2170 3655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2030 3700 50  0001 C CNN
+F 3 "~" H 2100 3700 50  0001 C CNN
+	1    2100 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 608BF122
+P 2050 2500
+F 0 "R?" V 1843 2500 50  0000 C CNN
+F 1 "10k" V 1934 2500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1980 2500 50  0001 C CNN
+F 3 "~" H 2050 2500 50  0001 C CNN
+	1    2050 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 608BF25F
+P 2100 3550
+F 0 "#PWR?" H 2100 3400 50  0001 C CNN
+F 1 "+3V3" H 2115 3723 50  0000 C CNN
+F 2 "" H 2100 3550 50  0001 C CNN
+F 3 "" H 2100 3550 50  0001 C CNN
+	1    2100 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 3850 2100 3900
+Connection ~ 2100 3900
+Wire Wire Line
+	2100 3900 2250 3900
+Wire Wire Line
+	2250 2500 2200 2500
+Wire Wire Line
+	1900 2500 1850 2500
+Wire Wire Line
+	1850 2500 1850 2450
+$Comp
+L power:+5V #PWR?
+U 1 1 608BFFBD
+P 1850 2450
+F 0 "#PWR?" H 1850 2300 50  0001 C CNN
+F 1 "+5V" H 1865 2623 50  0000 C CNN
+F 2 "" H 1850 2450 50  0001 C CNN
+F 3 "" H 1850 2450 50  0001 C CNN
+	1    1850 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 608C02FC
+P 2650 1850
+F 0 "#PWR?" H 2650 1700 50  0001 C CNN
+F 1 "+5V" H 2665 2023 50  0000 C CNN
+F 2 "" H 2650 1850 50  0001 C CNN
+F 3 "" H 2650 1850 50  0001 C CNN
+	1    2650 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 2300 2650 2000
+$Comp
+L power:GND #PWR?
+U 1 1 608C8382
+P 3450 2350
+F 0 "#PWR?" H 3450 2100 50  0001 C CNN
+F 1 "GND" H 3455 2177 50  0000 C CNN
+F 2 "" H 3450 2350 50  0001 C CNN
+F 3 "" H 3450 2350 50  0001 C CNN
+	1    3450 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 608C8388
+P 3450 2200
+AR Path="/60783E8D/608C8388" Ref="C?"  Part="1" 
+AR Path="/6076BF40/608C8388" Ref="C?"  Part="1" 
+F 0 "C?" H 3565 2246 50  0000 L CNN
+F 1 "100n" H 3565 2155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3488 2050 50  0001 C CNN
+F 3 "~" H 3450 2200 50  0001 C CNN
+	1    3450 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 608C8A52
+P 3900 2350
+F 0 "#PWR?" H 3900 2100 50  0001 C CNN
+F 1 "GND" H 3905 2177 50  0000 C CNN
+F 2 "" H 3900 2350 50  0001 C CNN
+F 3 "" H 3900 2350 50  0001 C CNN
+	1    3900 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 608C8A58
+P 3900 2200
+AR Path="/60783E8D/608C8A58" Ref="C?"  Part="1" 
+AR Path="/6076BF40/608C8A58" Ref="C?"  Part="1" 
+AR Path="/6078CBB6/608C8A58" Ref="C?"  Part="1" 
+F 0 "C?" H 4015 2246 50  0000 L CNN
+F 1 "10u" H 4015 2155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3938 2050 50  0001 C CNN
+F 3 "~" H 3900 2200 50  0001 C CNN
+	1    3900 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 2050 3900 2000
+Wire Wire Line
+	3900 2000 3450 2000
+Connection ~ 2650 2000
+Wire Wire Line
+	2650 2000 2650 1850
+Wire Wire Line
+	3450 2050 3450 2000
+Connection ~ 3450 2000
+Wire Wire Line
+	3450 2000 2650 2000
+Text Label 4350 4100 2    50   ~ 0
+M_R8
+Text Label 4350 3400 2    50   ~ 0
+M_R1
+Text Label 4350 3500 2    50   ~ 0
+M_R2
+Text Label 4350 3600 2    50   ~ 0
+M_R3
+Text Label 4350 3700 2    50   ~ 0
+M_R4
+Text Label 4350 3800 2    50   ~ 0
+M_R5
+Text Label 4350 3900 2    50   ~ 0
+M_R6
+Text Label 4350 4000 2    50   ~ 0
+M_R7
+Text Label 4800 2950 1    50   ~ 0
+M_C1
+Text Label 4900 2950 1    50   ~ 0
+M_C2
+Text Label 5000 2950 1    50   ~ 0
+M_C3
+Text Label 5100 2950 1    50   ~ 0
+M_C4
+Text Label 5200 2950 1    50   ~ 0
+M_C5
+Text Label 5300 2950 1    50   ~ 0
+M_C6
+Text Label 5400 2950 1    50   ~ 0
+M_C7
+Text Label 5500 2950 1    50   ~ 0
+M_C8
+$EndSCHEMATC
