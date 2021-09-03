@@ -1,0 +1,34 @@
+/**
+  ******************************************************************************
+  * @file           : sequencer.c
+  * @author			: Thomas Mazella - Electronic Milkshake
+  * @date			: Sept 2021
+  * @brief          : Handles sequences
+  ******************************************************************************
+  */
+
+/* Includes ------------------------------------------------------------------*/
+#include "sequencer.h"
+
+/* Typedef -----------------------------------------------------------*/
+
+/* Defines ------------------------------------------------------------*/
+#define MAX_SEQ_LEN 16
+
+/* Macros -------------------------------------------------------------*/
+
+/* Variables ---------------------------------------------------------*/
+
+/* Private function -----------------------------------------------*/
+
+/* Public function -----------------------------------------------*/
+
+/**
+ * @fn static void Sequencer_vTickSequencer(void)
+ * @brief This function is called for every tick (gate input of internal clock)
+ */
+PUBLIC static void Sequencer_vTickSequencer(void)
+{
+
+}
+
